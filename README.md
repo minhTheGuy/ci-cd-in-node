@@ -48,4 +48,5 @@ jobs:
       - name: Run test
         run: npm test
 ```
-At this point, if we push this to our main branch, we will see this action run. But because we want to go a step further to add automatic deployment to Heroku, we will add a second job to our workflow.
+At this point, if we push this to our main branch, we will see this action run like this:
+![image](https://github.com/user-attachments/assets/ede68528-ee3c-486d-a99c-dee208872222)
